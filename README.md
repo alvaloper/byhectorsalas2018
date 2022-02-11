@@ -10,3 +10,6 @@ Programming, editing and publication of the website www.byhectorsalas.com (You c
 Management of DNS services and .com domain
 
 Year of development 2018
+
+Programmer: Luis Jose Espinoza Alvarado @alvaloper
+Client: Hector Salas - USA
