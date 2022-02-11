@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<!-- least.js CSS-file -->
+<link href="css/least.min.css" rel="stylesheet" />
+<!-- jQuery libary -->
+<script src="http://code.jquery.com/jquery-latest.js" defer="defer"></script>
+<!-- least.js JS-file -->
+<script src="js/least.min.js" defer="defer"></script>
+<!-- Lazyload JS-file -->
+<script src="js/jquery.lazyload.js" defer="defer"></script>
+<section>
+    <ul id="gallery">
+        <li id="fullPreview"></li>
+        
+        <li>
+            <a href="http://kamilczujowski.github.io/least/img/full/4.jpg"></a>
+            <img data-original="http://kamilczujowski.github.io/least/img/full/4.jpg" src="img/effects/white.gif" width="240" height="150" alt="Ocean" />
+            
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li>
+                        <h2>
+                            Ocean
+                        </h2>
+                    </li>
+                    <li>
+                        <p>
+                            View Picture
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="projectInfo">
+                <strong>
+                    Day, Month, Year:
+                </strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            </div>
+        </li>
+    </ul>
+</section>
+<script>
+$(document).ready(function(){
+    $('#gallery').least();
+});
+</script>
+</body>
+</html>
